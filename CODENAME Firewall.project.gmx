@@ -11,6 +11,7 @@
     <sprite>sprites\spr_shadow_player</sprite>
     <sprite>sprites\spr_walkway</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_wave</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -21,11 +22,12 @@
     <script>scripts\scr_character_tick.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_player_blue</object>
+    <object>objects\obj_player</object>
     <object>objects\obj_shadow_player</object>
     <object>objects\obj_game</object>
     <object>objects\obj_walkway</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_wave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>

@@ -219,9 +219,11 @@ if(bJumpUp == 2)
 if(!position_meeting(x, y, obj_walkway) <= 1)
 {
     fall = true;
+    show_debug_message(!position_meeting(x, y, obj_walkway));
+
 }
 
-if(fall == true)
+if(fall = true)
 {
     if (image_xscale > 0.03)
     {
@@ -239,4 +241,11 @@ if(fall == true)
         global.lives--;
         game_restart();
     }
+}
+
+if(keyboard_check_pressed(vk_space)){
+wave = instance_create(obj_player.x,obj_player.y,obj_wave);
+wave.direction = image_angle+90;
+wave.image_angle = image_angle+180;
+wave.speed = wave_speed;
 }

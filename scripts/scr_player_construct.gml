@@ -12,6 +12,9 @@ obj_shadow_player.x = x;
 obj_shadow_player.y = y;
 depth = 10;
 
+//Waves
+wave_speed = 10;
+
 //Speech
 speech_cooldown = 0;
 speech_cooldown_mark = 150;

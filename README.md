@@ -13,5 +13,5 @@ https://github.com/martinpetkovski
 #-Antonio Karapec - voice actor, SFX editing, graphics
 #-Andrej Mickov - UI, graphics
 
-#This game won secured us the second place on the Global Game Jam 2017 in Bitola.
+#This game won us the second place on the Global Game Jam 2017 in Bitola.
 -http://globalgamejam.org/2017/games/codenamefarewell 
